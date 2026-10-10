@@ -97,7 +97,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1;
   letter-spacing: 30px;
   text-transform: uppercase;
   color: #ffffff;
@@ -105,6 +105,7 @@
 
 .aligned-text {
   display: block;
+  line-height: 1.15;
 }
 
 .aligned-text_left {
@@ -124,7 +125,7 @@
 }
 
 .no-letter-spacing {
-  letter-spacing: normal;
+  letter-spacing: 0;
 }
 
 .cover__description {
@@ -182,9 +183,9 @@
 }
 
 .lots__card-list-item {
-  flex-grow: 1;
-  width: calc((100% - 50px) / 3);
+  width: 334px;
   min-height: 450px;
+  flex-shrink: 0;
 }
 
 .card-link {
@@ -245,6 +246,7 @@
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
+  margin-left: 40px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -284,7 +286,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1;
   text-transform: uppercase;
   color: #000000;
 }
