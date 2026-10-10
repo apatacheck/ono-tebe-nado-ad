@@ -3,6 +3,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   box-sizing: border-box;
+  height: 293px;
   padding: 92px 50px;
 }
 
@@ -141,6 +142,7 @@
   justify-content: flex-end;
   gap: 78px;
   box-sizing: border-box;
+  height: 51px;
 }
 
 .cover__description-text {
@@ -269,7 +271,7 @@
   grid-template-columns: 334px 1fr;
   column-gap: 25px;
   box-sizing: border-box;
-  padding: 180px 24px 0;
+  padding: 120px 24px 0;
 }
 
 .about__column {
@@ -322,7 +324,9 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
   box-sizing: border-box;
-  padding: 180px 50px 88px;
+  height: 180px;
+  padding: 0 50px;
+  margin-top: 180px;
 }
 
 .footer__address {
