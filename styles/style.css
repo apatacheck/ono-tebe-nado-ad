@@ -107,18 +107,21 @@
 
 .aligned-text {
   display: block;
-  line-height: 1.15;
+  line-height: 1;
 }
 
 .aligned-text_left {
+  align-self: flex-start;
   text-align: left;
 }
 
 .aligned-text_center {
+  align-self: center;
   text-align: center;
 }
 
 .aligned-text_right {
+  align-self: flex-end;
   text-align: right;
 }
 
@@ -168,12 +171,12 @@
 }
 
 .lots__heading {
-  margin: 0 0 27px;
-  padding-left: 40px;
+  margin: 0 0 27px 0;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1;
   text-transform: uppercase;
   color: #000000;
 }
@@ -253,7 +256,6 @@
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 40px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: 1.2;
