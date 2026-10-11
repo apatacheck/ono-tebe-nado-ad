@@ -274,13 +274,13 @@
   margin-top: 120px;
 }
 
-.about__column:first-child {
+.about__column_type_logo {
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
-.about__column:last-child {
+.about__column_type_content {
   display: flex;
   flex-direction: column;
   padding-top: 98px;
